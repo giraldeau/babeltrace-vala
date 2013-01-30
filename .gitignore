@@ -1,5 +1,6 @@
 *~
 .valencia
+Makefile
 Makefile.in
 aclocal.m4
 autom4te.cache/
@@ -14,4 +15,4 @@ tests/Makefile.in
 tests/*.c
 tests/*.o
 tests/*.stamp
-tests/test-augeas
+tests/test-babeltrace
