@@ -20,6 +20,12 @@
  *  Francis Giraldeau <francis.giraldeau@gmail.com>
  */
 
-[CCode (cheader_filename = "babeltrace.h")]
+[CCode (cheader_filename = "babeltrace/babeltrace.h")]
 namespace Babeltrace {
+    [Compact]
+    [CCode (cname = "struct bt_context", cprefix = "bt_", free_function = "bt_context_put")]
+    public class Context {
+        [CCode (cname = "bt_context_create")]
+        public Context();
+    }
 }
