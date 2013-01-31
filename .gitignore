@@ -16,3 +16,4 @@ tests/*.c
 tests/*.o
 tests/*.stamp
 tests/test-babeltrace
+traceset
